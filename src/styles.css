@@ -1,7 +1,65 @@
-h1 {
+body {
   font-family: "Poppins", sans-serif;
-  font-style: normal;
+  background-color: antiquewhite;
+}
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
+    url("../images/bermuda.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 260px 0;
+}
+header h1 {
   font-weight: 700;
   font-size: 96px;
-  line-height: 144px;
+  line-height: 1;
+  margin: 20px 0px;
+}
+header h2 {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 20px 0px;
+}
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0px;
+}
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  color: #272044;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: white;
+}
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
 }
