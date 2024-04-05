@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  background: #272044;
 }
 .container {
   max-width: 1500px;
@@ -8,6 +9,7 @@ body {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 65px;
 }
 section {
   max-width: 1200px;
@@ -58,7 +60,10 @@ header a {
 }
 footer {
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.5),
+      rgba(39, 32, 69, 0.9)
+    ),
     url("../images/bermuda-beach.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -72,7 +77,6 @@ footer h4 {
 footer p {
   font-weight: 400;
   font-size: 16px;
-  margin-right: 20px;
   line-height: 24px;
   opacity: 0.7;
 }
