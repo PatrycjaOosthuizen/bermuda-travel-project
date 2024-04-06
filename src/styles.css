@@ -7,7 +7,12 @@ body {
   margin: 0 auto;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
+}
+
+.fa-brands {
+  font-size: 30px;
+  padding: 10px;
 }
 .grid {
   display: grid;
@@ -16,15 +21,60 @@ body {
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
+}
+.card {
+  background: white;
+  margin: 30px 0;
+}
+.card-header.grid {
+  grid-gap: 0;
+}
+.card-body {
+  padding: 30px;
+}
+.card-footer {
+  padding: 0 30px 30px;
+}
+.fa-brands {
+  font-size: 30px;
+  padding: 10px;
+  color: #462cb3;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
+}
+
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 100px;
 }
-
+section.secondary {
+  background: #f8f8f8;
+}
+.text-centre {
+  text-align: center;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
     url("../images/bermuda.jpg");
@@ -87,6 +137,20 @@ main h3 {
   margin: 0;
   color: #272044;
 }
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
 main p {
   font-size: normal;
   font-weight: 400;
@@ -147,5 +211,8 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
