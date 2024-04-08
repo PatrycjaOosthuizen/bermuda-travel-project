@@ -31,6 +31,7 @@ body {
   width: 100%;
   aspect-ratio: 1 /1;
 }
+
 .card {
   background: white;
   margin: 30px 0;
@@ -62,6 +63,10 @@ body {
   padding: 16px;
   background-color: #462cb3;
   text-decoration: none;
+}
+.row {
+  margin: 25px 0;
+  padding: 24px;
 }
 
 section {
@@ -207,12 +212,21 @@ footer a {
   }
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 32px;
+    grid-gap: 12px;
   }
   section {
     padding: 30px;
   }
   .embed {
     aspect-ratio: 16 / 9;
+  }
+  .row {
+    margin: 0;
+  }
+  .embed-videos {
+    max-width: 100%;
+    aspect-ratio: 16/9;
+    width: 400px;
+    height: 190px;
   }
 }
