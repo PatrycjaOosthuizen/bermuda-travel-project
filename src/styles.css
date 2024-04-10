@@ -211,6 +211,9 @@ footer a {
   color: white;
   opacity: 0.7;
 }
+.po-code-logo {
+  max-width: 35px;
+}
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
